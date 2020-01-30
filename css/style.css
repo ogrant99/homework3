@@ -1,0 +1,140 @@
+/*STARTER CODE*/
+
+/*
+We have started some of the selectors for you.
+For others we have provided hints on what the selectors should be.
+There are some missing selectors.
+
+Make sure to learn what the starter code does!!
+*/
+
+body{
+  color: black;
+  font-family: 'Andika', sans-serif;
+  font-size: 16px;
+  padding-top: 10px;
+  margin: 1.2em;
+  background-image: url("../images/pigeon-background.JPEG");
+  background-color: #DDDDDD;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: cover ;
+  background-position: center;
+}
+
+main{
+  margin-bottom: 100px;
+}
+
+h1{
+  color: #8000FF;
+  font-size: 2em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+caption{
+  margin:5px 0px;
+}
+
+p{
+  padding-top: 10px;
+  size: 16px;
+}
+
+a{
+  color: #B21F50;
+  size : 16px;
+  text-decoration-style: wavy;
+}
+
+table{
+    border-radius:15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing:0;
+    border-collapse:separate;
+}
+
+.colhead{
+  background-color: #7e0820;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+  min-width: 100px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.colhead:first-child{
+  border-radius:15px 0 0 0;
+  border-left: 2px solid black;
+}
+
+.colhead:last-child{
+  border-radius:0 15px 0 0;
+  border-right: 2px solid black;
+}
+
+.rowhead{
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  padding: 10px;
+}
+
+td{
+  padding: 15px;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+tr:nth-child(odd){
+  background-color: #D1D1D1;
+}
+
+tr:hover{
+  background-color: rgb(126,8,32,.5);
+}
+
+*:focus{
+  border: 2px solid black;
+}
+
+td:last-child{
+  border-right: 2px solid black;
+}
+
+tr:last-child .rowhead{
+  border-bottom-left-radius: 15px;
+}
+
+tr:last-child td:last-child{
+  border-bottom-right-radius: 15px;
+}
+
+/* thead tr:first-child th:first-child{
+  border-radius:15px 0 0 0;
+}
+
+thead tr:first-child th:last-child{
+  border-radius:0 15px 0 0;
+}
+
+tbody tr:last-child td:last-child{
+  border-radius:0 0 15px 0;
+}
+
+tbody tr:last-child th:last-child{
+  border-radius:0 0 0 15px;
+} */
+
+footer{
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  width:100%;
+  background:black;
+  text-align:center;
+  color: white;
+  min-height: 60px;
+}
